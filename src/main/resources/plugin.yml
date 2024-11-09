@@ -1,0 +1,9 @@
+name: ChunkNeighbor
+version: 2.9.2-SNAPSHOT
+main: com.maijsoft.ChunkNeighbor.Main
+author: MAIJSOFT
+description: 청크 경계에서의 상호작용을 막는 플러그인입니다.
+api-version: 1.21
+commands: {}
+
+permissions: {}
