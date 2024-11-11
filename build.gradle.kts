@@ -1,5 +1,5 @@
 plugins {
-    kotlin("jvm") version "1.8.20" // 코틀린 버전 설정
+    kotlin("jvm") version "1.8.20"
     id("java")
 }
 
@@ -12,7 +12,6 @@ repositories {
 }
 
 dependencies {
-    // Paper API 추가
     compileOnly("io.papermc.paper:paper-api:1.21.1-R0.1-SNAPSHOT")
 }
 
@@ -23,7 +22,7 @@ tasks.withType<JavaCompile> {
 tasks.named<Jar>("jar") {
     manifest {
         attributes(
-            "Main-Class" to "com.maijsoft.ChunkNeighbor.Main" // 메인 클래스 지정
+            "Main-Class" to "com.maijsoft.ChunkNeighbor.Main"
         )
     }
 }
